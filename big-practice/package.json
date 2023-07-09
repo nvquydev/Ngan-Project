@@ -1,0 +1,16 @@
+{
+  "name": "practice-two",
+  "version": "1.0.0",
+  "description": "- Apply knowledge to responsive design - Apply Grid css - Used media queries for popular screen size",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rd  -rf build && rd  -rf .parcel-cache && parcel build ./src/*.html --no-cache --no-source-maps --dist-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {}
+}
